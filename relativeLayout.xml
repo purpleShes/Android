@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="344dp"
+    android:layout_height="382dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/user_image"
+        android:text="Title goes here"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_toRightOf="@id/user_image"
+        android:text="Secondary text"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginTop="72dp"
+        android:background="#808080"
+        android:src="@drawable/center" />
+
+    <TextView
+        android:id="@+id/lorem_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_image"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ACTION 1"
+        android:textColor="#6200ee"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/button1"
+        android:text="ACTION 2"
+        android:textColor="#6200ee"
+        android:textSize="14sp" />
+</RelativeLayout>
+
